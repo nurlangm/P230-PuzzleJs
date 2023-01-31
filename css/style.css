@@ -1,0 +1,77 @@
+#puzzle .piece {
+  width: 100px;
+  height: 100px;
+  background-position: center;
+  background-size: cover;
+  margin: 1px;
+  display: inline-block;
+}
+
+#img1 {
+  background-image: url(/photos/1.jpeg);
+}
+
+#img2 {
+  background-image: url(/photos/5.jpeg);
+}
+
+#img3 {
+  background-image: url(/photos/8.jpeg);
+}
+
+#img4 {
+  background-image: url(/photos/9.jpeg);
+}
+
+#img5 {
+  background-image: url(/photos/3.jpeg);
+}
+
+#img6 {
+  background-image: url(/photos/4.jpeg);
+}
+
+#img7 {
+  background-image: url(/photos/7.jpeg);
+}
+
+#img8 {
+  background-image: url(/photos/6.jpeg);
+}
+
+#img9 {
+  background-image: url(/photos/2.jpeg);
+}
+
+#images {
+  width: 320px;
+}
+
+#main div {
+  position: relative;
+  height: 100px;
+  width: 100px;
+  border: 1px solid #aaa;
+  display: inline-block;
+  margin: 0;
+}
+
+#main {
+  min-width: 320px;
+  max-width: -webkit-min-content;
+  max-width: -moz-min-content;
+  max-width: min-content;
+}
+
+#puzzle {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 1em;
+}
+
+#finaly {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=style.css.map */
